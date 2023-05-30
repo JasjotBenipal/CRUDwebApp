@@ -1,0 +1,34 @@
+{% extends "base.html" %} 
+{% block title %}shairlines{% endblock %} 
+
+{% block content%}
+<h1 align="center">Patient Descriptions</h1>
+<ul class="list-group list-group-flush" id="notes">
+  {% for note in user.notes %}
+  <li class="list-group-item">
+    On
+    {{ note.date }},
+    <br>
+    Patient Name:
+    {{ note.patient }},
+    <br>
+    Description:
+    {{ note.data }}
+
+    <button type="button" class="close" onClick="deleteNote({{ note.id }})">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </li>
+  {% endfor %}
+</ul>
+<form method="POST">
+  <label for="patient">Patient's Name</label>
+  <textarea name="patient" id="patient" class="form-control" placeholder="Write Patient's Name Here"></textarea>
+  <label for="note">Description</label>
+  <textarea name="note" id="note" class="form-control" placeholder="Write Patient Description Here"></textarea>
+  <br />
+  <div align="center">
+    <button type="submit" class="btn btn-primary">Add Discription Data</button>
+  </div>
+</form>
+{% endblock %}
