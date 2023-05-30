@@ -1,0 +1,36 @@
+Group Members:
+- Jasjot Singh Benipal: 1008332494
+- Darren Trieu: 1008403611
+- Thadani Simran Sanjay: 1009773844
+
+Our project:
+On replit, please ensure you have the following packages installed:
+  - replit
+  - Flask
+  - WTForms
+  - Flask-Login
+  - Flask-WTF
+  - Flask-SQLAlchemy
+  - Redberry
+  - Flask-Bootstrap
+
+Special Things we have done:
+  - Secured account Password with sha-256
+  - Used Bootstrap to make grid design compatible for all devices
+  - Used bootstrap/js through official bootstrap website links to make make website have smooth feel
+  - Used flask to display and delete professional doctor notes that show great flow
+
+Bibliography:
+Since this was our first time trying these new frameworks and going beyond
+the lectures, we learned form online official tutorials as well as readings posted from quercus
+to create our own website. This includes our flask, databases, bootstrap and individual ways that
+we needed to learn to make our final website
+
+List:
+https://flask.palletsprojects.com/en/2.2.x/tutorial/
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Overflowing_content
+https://www.browserstack.com/guide/css-grid-vs-bootstrap
+https://getbootstrap.com/docs/4.3/getting-started/introduction/
+https://www.youtube.com/watch?v=dam0GPOAvVI&ab_channel=TechWithTim
+https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
+https://www.youtube.com/watch?v=Z1RJmh_OqeA&ab_channel=freeCodeCamp.org
